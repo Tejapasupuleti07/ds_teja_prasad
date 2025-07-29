@@ -1,0 +1,22 @@
+Data Science Report
+Project Title: Analysis of Trader Behavior vs Market Sentiment
+Candidate: Teja Prasad
+Folder: ds_teja_prasad/
+
+N Summary of Analysis
+This analysis explores the relationship between trader behavior and market sentiment (Fear vs Greed) using:
+- historical_data.csv (trader transactions)
+- fear_greed_index.csv (daily sentiment)
+
+The two datasets were merged by date, and metrics like profit (closedPnL) were analyzed against market sentiment n Key Insights
+1. Profitability Trends by Sentiment
+Traders made significantly higher profits during “Greed” days compared to “Fear” days. This indicates that 2. Volume & Sentiment (Optional)
+Trade volume was slightly higher during “Greed” phases. Traders appear more confident and active when 3. Side Analysis (Optional)
+Long positions were more frequent during Greed periods. Fear periods saw a more balanced or defensive n Visualization
+
+Total Profit by Market Sentiment
+Saved as: outputs/profit_by_sentiment.png
+This bar chart clearly shows that cumulative profits are greater when the market is in a 'Greed' state.
+
+n Conclusion
+This analysis shows that market sentiment significantly influences trading behavior, especially profitability.
