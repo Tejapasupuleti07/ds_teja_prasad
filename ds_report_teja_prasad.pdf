@@ -1,22 +1,74 @@
-Data Science Report
-Project Title: Analysis of Trader Behavior vs Market Sentiment
-Candidate: Teja Prasad
-Folder: ds_teja_prasad/
+%PDF-1.3
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /ZapfDingbats /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
 
-N Summary of Analysis
-This analysis explores the relationship between trader behavior and market sentiment (Fear vs Greed) using:
-- historical_data.csv (trader transactions)
-- fear_greed_index.csv (daily sentiment)
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+>>
+endobj
+6 0 obj
+<<
+/Author (anonymous) /CreationDate (D:20250729163233+00'00') /Creator (ReportLab PDF Library - www.reportlab.com) /Keywords () /ModDate (D:20250729163233+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (unspecified) /Title (untitled) /Trapped /False
+>>
+endobj
+7 0 obj
+<<
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
+>>
+endobj
+8 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1185
+>>
+stream
+Gat%";,c4/&:X)OfV^7Td"%[?'].R#ERQA-@iA.8R)s12FY&V#T-PeO?[jTJ$#.4i).irT[B'8?rOuPM39-VVI-*<%`sb_H&kGpA8k:;($"VZWGP6c`-iMHW)9aH*^4rDtclpVS5q48W7ZB=o(pZ6Erd5k9SV<FMU[KUTO9m<!&j@_.SJ;o^$(8V]%"+iXf0UEY>PO*<SfGsG3DoCgE;CiGoEeM@$?Ve!UH=,JK,0B]Yk*cTeWlGJod(;qiAbZ$KWrqa\G+sne#W*gY)ZJ;Gu!?2bhK]uds7`neAM+.@pN6VeDQW;H>'*4AAM7KL*SgRQ*!FV96(sq"YN]_geu405TMkl>7TWck__(@qi;mMDNCL!6EMkqX-j1!0>AIH9&BZ9lEh-`aos^(8%Dps<II=693KJ+_7.J&2l15\XlL*2.pq1#W.H)eF9N$)4^g@8l>/@\o^j?pkp:9f%DH.AcGG;E5ttr["Y;b8S5(8bj;=<h.IIK\UJ'Qkbb_aIgo,#N0SG0]4`W6Z:akY$POC>a_LF)J?(4YG5GSWJ)FQBPc!E!30@[gNA]:Zi_b-Di7k0Z6Hc<n>V3&Q:lpb?EBAqJ1Rne:?L1XXZ>nHME8sHC^jg\k:Qbb_=e6+2'_ifZ,1`]'uVWicumO[G1DU:(kb`mVE[CU]HK&?o8"QspD$0Z]cqeJ94a:6!qc*u\i]\/UQPepHcp4+24D]SL^^$@`u&fp8S30KPei4G:l:%61:4043e)_Z/p#@ohhp8ERcbd'MB<r,9K1%c_X9uT0d/G+b'BtT^HSdJ/].YG*[@(k1CS@RXYn4\L/@ABso-OtYiMdXRMQuh,^;>j]Y-gr;*CX"!]ASh>%@(tFEd!r/NV?\#)6:44U2?JODeUI[Z)o*<!7#AQo$K1/L:e@a,L?TZ?P;MJC))Vh;14/uXr[r#F;ET\R4.LTM2c`$6F7bW>cYp"k8\\9g\Fp$C?@m'#dlMgoe[\e*Md6]\NEQd(9)#d7P'P8%1_+QJSGMJQktUW:]WGDQ7b4qf-@68Jm]sGu<0(BE]n1k/\.`dJZeg:VI-^jdam7(JUfB$m+!"a8I.>X*gdCa.mlugVTh=#7s&n\`2qpoO!b<7m"\Lu1m*A$`H,pU'a+4Sf$n@DLLmekBC!cDmN`Lbu$1Rok.'=++log]4GV"OYmbrdWrr\YFheW~>endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000073 00000 n 
+0000000114 00000 n 
+0000000221 00000 n 
+0000000304 00000 n 
+0000000497 00000 n 
+0000000565 00000 n 
+0000000861 00000 n 
+0000000920 00000 n 
+trailer
+<<
+/ID 
+[<3c0f1e4283c87fd18194fc01a39c5cb9><3c0f1e4283c87fd18194fc01a39c5cb9>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
-The two datasets were merged by date, and metrics like profit (closedPnL) were analyzed against market sentiment n Key Insights
-1. Profitability Trends by Sentiment
-Traders made significantly higher profits during â€œGreedâ€ days compared to â€œFearâ€ days. This indicates that 2. Volume & Sentiment (Optional)
-Trade volume was slightly higher during â€œGreedâ€ phases. Traders appear more confident and active when 3. Side Analysis (Optional)
-Long positions were more frequent during Greed periods. Fear periods saw a more balanced or defensive n Visualization
-
-Total Profit by Market Sentiment
-Saved as: outputs/profit_by_sentiment.png
-This bar chart clearly shows that cumulative profits are greater when the market is in a 'Greed' state.
-
-n Conclusion
-This analysis shows that market sentiment significantly influences trading behavior, especially profitability.
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
+>>
+startxref
+2196
+%%EOF
